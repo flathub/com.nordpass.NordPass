@@ -38,7 +38,7 @@ modules:
       - install -D apply_extra "${FLATPAK_DEST}/bin/apply_extra"
       - install nordpass "${FLATPAK_DEST}/bin/"
     post-install:
-      - install -p -Dm644 "icon.png" "${FLATPAK_DEST}/share/icons/hicolor/512x512/apps/${FLATPAK_ID}.png"
+      - install -p -Dm644 "icon.svg" "${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg"
       - install -Dm644 nordpass.desktop "${FLATPAK_DEST}/share/applications/${FLATPAK_ID}.desktop"
       - install -Dm644 com.nordpass.NordPass.metainfo.xml "${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml"
     sources:
@@ -67,4 +67,4 @@ modules:
       - type: file
         path: nordpass.desktop
       - type: file
-        path: icon.png
+        path: icon.svg
