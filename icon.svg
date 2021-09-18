@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ico-512-android</title>
+    <defs>
+        <filter x="-8.1%" y="-8.1%" width="116.3%" height="116.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="7" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <circle id="path-2" cx="224" cy="224" r="224"></circle>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#43A5A2" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#439FA1" stop-opacity="0.1" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-5" x="0" y="0" width="448" height="448"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#43A5A1" offset="0%"></stop>
+            <stop stop-color="#4295A3" offset="100%"></stop>
+        </linearGradient>
+        <path d="M94.4536087,321 C75.2974093,294.303943 64,261.456954 64,225.939332 C64,136.502708 135.63444,64 224,64 C312.36556,64 384,136.502708 384,225.939332 C384,261.456723 372.702738,294.303515 353.546766,321 L276.69896,194.694813 L269.277921,207.376366 L276.807154,242.645893 L224,151.198102 L191.33342,207.020877 L198.938542,242.645893 L171.258724,194.767127 L94.4536087,321 Z" id="path-7"></path>
+        <filter x="-0.6%" y="-0.8%" width="101.2%" height="101.6%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="-2" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="ico-512-android" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(32.000000, 32.000000)">
+            <g id="background" filter="url(#filter-1)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <use id="Mask" fill="#D8D8D8" xlink:href="#path-2"></use>
+                <g mask="url(#mask-3)">
+                    <use fill="#FFFFFF" xlink:href="#path-5"></use>
+                    <use fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+                </g>
+            </g>
+            <g id="logomark">
+                <use fill="url(#linearGradient-6)" fill-rule="evenodd" xlink:href="#path-7"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+            </g>
+        </g>
+    </g>
+</svg>
