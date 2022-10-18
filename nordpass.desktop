@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=NordPass
-Exec=nordpass
+Exec=nordpass %U
 Terminal=false
 Type=Application
 Icon=com.nordpass.NordPass
