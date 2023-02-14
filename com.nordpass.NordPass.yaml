@@ -44,9 +44,9 @@ modules:
     sources:
       - type: extra-data
         filename: nordpass.snap
-        url: https://api.snapcraft.io/api/v1/snaps/download/00CQ2MvSr0Ex7zwdGhCYTa0ZLMw3H6hf_153.snap
-        sha256: dd7bc9a84a69b714eda9cd8076851f42437a92412dbe363f9cf875139b7f7a24
-        size: 80412672
+        url: https://api.snapcraft.io/api/v1/snaps/download/00CQ2MvSr0Ex7zwdGhCYTa0ZLMw3H6hf_154.snap
+        sha256: 81a343927eb38c605c1c15e318bdef8d155ca6a370fbd49ce868ebf7079992b5
+        size: 80424960
         x-checker-data:
           type: snapcraft
           name: nordpass
