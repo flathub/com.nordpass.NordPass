@@ -35,6 +35,7 @@
     <update_contact>sakcheen+flathub_AT_gmail.com</update_contact>
     <content_rating type="oars-1.1"/>
     <releases>
+        <release version="5.13.24" date="2024-02-14"/>
         <release version="5.11.19" date="2023-12-21"/>
         <release version="5.9.25" date="2023-11-16"/>
         <release version="5.9.24" date="2023-11-09"/>
