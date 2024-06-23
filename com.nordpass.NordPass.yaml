@@ -29,6 +29,11 @@ modules:
         path: xz_support.patch
       - type: patch
         path: gcc10.diff
+  - name: zypak
+    sources:
+      - type: git
+        url: https://github.com/refi64/zypak
+        tag: v2022.04
 
   - shared-modules/libsecret/libsecret.json
 
