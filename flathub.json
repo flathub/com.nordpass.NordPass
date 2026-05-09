@@ -1,5 +1,4 @@
 {
   "publish-delay-hours": 0,
-  "only-arches": ["x86_64"],
-  "end-of-life": "This application is no longer maintained."
+  "only-arches": ["x86_64"]
 }
